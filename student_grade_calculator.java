@@ -2,9 +2,9 @@ import java.util.*;
 
 class grade{
     int regno,sem;
-    String name,s1,s2,s3,s4,s5,s6;
+    String name,s1,s2,s3,s4,s5,s6,s7,s8,s9;
     static Double sgpa;
-    grade(int regno,String name,String s1,String s2,String s3,String s4,String s5,String s6,int sem){
+    grade(int regno,String name,String s1,String s2,String s3,String s4,String s5,String s6,String s7,String s8,String s9,int sem){
             this.regno=regno;
             this.name=name;
             this.s1=s1;
@@ -13,6 +13,9 @@ class grade{
             this.s4=s4;
             this.s5=s5;
             this.s6=s6;
+            this.s7=s7;
+            this.s8=s8;
+            this.s9=s9;
     }
     public void calculate(){
        s1=""+(grademark(s1)*4);
@@ -21,10 +24,17 @@ class grade{
        s4=""+(grademark(s4)*3);
        s5=""+(grademark(s5)*3);
        s6=""+(grademark(s6)*3);
+       s7=""+(grademark(s7)*1);
+       s8=""+(grademark(s8)*1);
+       s9=""+(grademark(s9)*1);
+
     } 
     public void result(){
-        sgpa=(Double.parseDouble(s1)+Double.parseDouble(s2)+Double.parseDouble(s3)+Double.parseDouble(s4)+Double.parseDouble(s5)+Double.parseDouble(s6)+10+10+9)/24;
-        System.out.print("SGPA : "+sgpa);
+        sgpa=(Double.parseDouble(s1)+Double.parseDouble(s2)+Double.parseDouble(s3)+Double.parseDouble(s4)+Double.parseDouble(s5)+Double.parseDouble(s6)+Double.parseDouble(s7)+Double.parseDouble(s8)+Double.parseDouble(s9))/24;
+        System.out.println("\n======================================");
+        System.out.print("ROLLNO   : \t"+regno+"\nNAME     : \t"+name+"\nSEMESTER : \t"+sem+"\nSGPA     : \t"+sgpa);
+        System.out.println("\n======================================");
+
     }
     public int grademark(String s){
         if("O".equals(s)){
@@ -67,7 +77,13 @@ public class student_grade_calculator {
             String s5=in.nextLine().toUpperCase();
             System.out.print("Enter the grade for DBMS : ");
             String s6=in.nextLine().toUpperCase();
-            grade obj=new grade(regno,name, s1, s2, s3, s4, s5, s6,sem);
+            System.out.print("Enter the grade for JPL : ");
+            String s7=in.nextLine().toUpperCase();
+            System.out.print("Enter the grade for MML : ");
+            String s8=in.nextLine().toUpperCase();
+            System.out.print("Enter the grade for DBMSL : ");
+            String s9=in.nextLine().toUpperCase();
+            grade obj=new grade(regno,name, s1, s2, s3, s4, s5, s6,s7,s8,s9,sem);
             obj.calculate();
             obj.result();
             
