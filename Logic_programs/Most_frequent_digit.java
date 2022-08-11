@@ -58,11 +58,10 @@ public class Most_frequent_digit {
 		Frequent(input3);
 		Frequent(input4);
 		occ.put(0,0);
-		int maxo=0,max=0 ;
+		int max=0 ;
 		for (Integer i : occ.keySet()) {
 			 if(occ.get(max)<occ.get(i)){
-				 maxo=occ.get(i);
-				max=i;
+				 max=i;
 				} }
 		System.out.println(max+" occurs maximum times "+occ.get(max));
 	}
