@@ -11,7 +11,7 @@ public class to_print_upper_and_lower_triangle_in_matrix {
 				arr[i][j]=in.nextInt();
 			}
 		}
-		
+		in.close();
 	}
 	public static void main(String args[]) {
 		try(Scanner in =new Scanner(System.in)){

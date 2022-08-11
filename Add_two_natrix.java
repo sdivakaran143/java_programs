@@ -11,7 +11,7 @@ public class Add_two_natrix {
 				arr[i][j]=in.nextInt();
 			}
 		}
-		
+		in.close();
 	}
 	public static void prnt(int[][] arr) {
 		for(int i[] : arr) {

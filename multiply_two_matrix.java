@@ -10,7 +10,7 @@ public class multiply_two_matrix {
 				arr[i][j]=in.nextInt();
 			}
 		}
-		
+		in.close();
 	}
 	public static void prnt(int[][] arr) {
 		for(int i[] : arr) {
