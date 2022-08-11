@@ -20,11 +20,28 @@ class round_a_decimal_number_specified_by_the_user{
         System.out.print("Enter the round Value : ");
         int r=in.nextInt();
         int j=0;
+        String res="";
         for(int i=0;i<Double.toString(d).length();i++,j++){
-            System.out.print(Double.toString(d).charAt(j));
+
             if(Double.toString(d).charAt(j)=='.'){
-                i=Double.toString(d).length()-(r+1);
+                if(r==0){
+                    if(Double.toString(d).charAt(j+1)<=5){
+                        res=""+(Integer.parseInt(res)+1);
+                        break;
+                    }
+                    if(Double.toString(d).charAt(j+1)>5){
+                        res=""+(Integer.parseInt(res)-1);
+                        break;
+                    }
+                }
+            } 
+            if(i==Double.toString(d).length()-1){
+                res+=(Double.toString(d).charAt(j)-'0')+1;
             }
+            else{
+                res+=(Double.toString(d).charAt(j));
+            }  
         }
+        System.out.println("Output : "+res);
     }
 }
