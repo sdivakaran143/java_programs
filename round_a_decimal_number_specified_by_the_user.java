@@ -13,6 +13,7 @@ output = 23.43
 import java.util.*;
 class round_a_decimal_number_specified_by_the_user{
     static Scanner in=new Scanner(System.in);
+
     public static void main(String[] args) {
         System.out.print("Enter the Decimal value : ");
         double d=in.nextDouble();
