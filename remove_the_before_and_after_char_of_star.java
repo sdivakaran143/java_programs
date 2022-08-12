@@ -13,27 +13,20 @@ public class remove_the_before_and_after_char_of_star {
 
     public static void main(String[] args) {
         System.out.println("Enter the string : ");
-        String str = in.nextLine();
-        for (int i = 0; i < str.length(); i++) {
+        String str = in.nextLine();str=" "+str+" ";
+        StringBuilder sb=new StringBuilder(str);
+        for (int i = 1; i < str.length()-1; i++) {
             char ch=str.charAt(i);
             if(ch=='*'){
-            str=str.substring(0, i)+str.substring(i+1);
-            if(i==0){
-                str=str.substring(i+1);
-                i=0;
-                continue;
+                str=str.substring(0,i-1)+str.substring(i+1);
+                if(str.charAt(i+1)!='*'){
+                    str=str.substring(0,i-1)+str.substring(i);
+                    continue;
+                }
             }
-            if(i==str.length()-1){
-                str=str.substring(0, i);
-                i=0;
-                continue;
-            }
-            else{
-                str=str.substring(0, i-1)+str.substring(i+1);
-                i=0;
-            }
-            } 
-        }
+            
+        } 
+
         System.out.println("\nOutput : " + str);
     }
 }
