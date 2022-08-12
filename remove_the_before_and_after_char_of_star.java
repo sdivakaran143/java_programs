@@ -14,7 +14,6 @@ public class remove_the_before_and_after_char_of_star {
     public static void main(String[] args) {
         System.out.println("Enter the string : ");
         String str = in.nextLine();str=" "+str+" ";
-        StringBuilder sb=new StringBuilder(str);
         for (int i = 1; i < str.length()-1; i++) {
             char ch=str.charAt(i);
             if(ch=='*'){
