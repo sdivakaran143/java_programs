@@ -24,7 +24,7 @@ public class remove_the_before_and_after_char_of_star {
             }
             
         } 
-        str=str.replace(" ","")
+        str=str.replace(" ","");
         System.out.println("\nOutput : " + str);
     }
 }
