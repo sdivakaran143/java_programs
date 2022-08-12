@@ -17,10 +17,9 @@ public class remove_the_before_and_after_char_of_star {
         for (int i = 1; i < str.length()-1; i++) {
             char ch=str.charAt(i);
             if(ch=='*'){
-                str=str.substring(0,i-1)+str.substring(i+1);
+                str=str.substring(0,i-1)+" "+str.substring(i+1);
                 if(str.charAt(i+1)!='*'){
-                    str=str.substring(0,i-1)+str.substring(i);
-                    continue;
+                    str=str.substring(0,i-1)+" "+str.substring(i);
                 }
             }
             
