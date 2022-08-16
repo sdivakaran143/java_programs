@@ -57,7 +57,6 @@ public class reversing_word_with_options {
 			stra[i]=Character.toString(rev.charAt(i));
 		}
 		for(int i=0;i<str.length();i++) {
-			char ch =str.charAt(i);
 			char ch1 =stra[i].charAt(0);
 			
 			if(Character.isAlphabetic(ch1)) {
