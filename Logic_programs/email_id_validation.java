@@ -42,9 +42,7 @@ public class email_id_validation {
 
 	}
 	public static void validate1(String mailid) {
-		String lchr="";
-		String num="";
-
+		String lchr="", num="";
 		for(int i=0;i<mailid.length();i++){
 			char ch=mailid.charAt(i);
 			if(Character.isAlphabetic(ch)) {
