@@ -3,6 +3,7 @@
  */
 import java.util.*;
 public class email_id_validation {
+	static String lchr="", num="";
 	static String output="valid"; 
 	public static void validate2(String mailid) {
 		String as="@.";
@@ -42,7 +43,6 @@ public class email_id_validation {
 
 	}
 	public static void validate1(String mailid) {
-		String lchr="", num="";
 		for(int i=0;i<mailid.length();i++){
 			char ch=mailid.charAt(i);
 			if(Character.isAlphabetic(ch)) {
