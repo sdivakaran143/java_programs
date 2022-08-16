@@ -2,6 +2,7 @@ import java.util.*;
 class sum_the_pos_of_the_digit_without_vowels{
     static Scanner in=new Scanner(System.in);
     public static void main(String[] args){
+    System.out.print("Enter the String : ");
     String str=in.nextLine().toUpperCase();
     String v="AEIOU";
     int sum=0;
@@ -10,9 +11,7 @@ class sum_the_pos_of_the_digit_without_vowels{
         if(v.contains(Character.toString(ch))){
            continue; 
         }
-        else{
-            sum+=(ch-64);
-        }
+        sum+=(ch-64);
     }
     System.out.println("OutPut : "+sum);
     }
