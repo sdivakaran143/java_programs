@@ -16,7 +16,6 @@ public class fibonacci_series {
 			a=b;b=c;
 			System.out.print(","+c);
 		}
-		
 	   }
 	}
 }
