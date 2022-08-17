@@ -1,6 +1,6 @@
 public class decreasingarray {
     public static void main(String[] args) {
-        int[] input1= {12,51,100,212,15,19,100,102,101,99,74,0,-5};
+        int[] input1= {12,51,100,212,15,12,7,3,57,300,312,78,19,100,102,101,99,74,0,-5};
         int input2=input1.length;
         int o1=0,o2=0,c=0;
 		int m=0;
