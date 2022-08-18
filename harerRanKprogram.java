@@ -1,9 +1,4 @@
-public import java.io.*;
 import java.util.*;
-import java.text.*;
-import java.math.*;
-import java.util.regex.*;
-
 public class harerRanKprogram {
 static Scanner in =new Scanner(System.in);
     
@@ -40,6 +35,4 @@ static Scanner in =new Scanner(System.in);
         System.out.println(sum1);
 
     }
-} harerRanKprogram {
-    
-}
+}  
