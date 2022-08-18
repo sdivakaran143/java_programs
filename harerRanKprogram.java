@@ -10,6 +10,9 @@ static Scanner in =new Scanner(System.in);
             if(a.length()==1){
                 a="00"+a;
             }
+            if(a.length()==0){
+                a="000"+a;
+            }
         }
         return a;
     }
