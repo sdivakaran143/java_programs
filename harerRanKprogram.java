@@ -4,16 +4,15 @@ static Scanner in =new Scanner(System.in);
     
     public static String convert(String a){
         if(a.length()<4){
-            if(a.length()<3){
+            if(a.length()==2){
                 a="0"+a;
             }
-            if(a.length()<2){
+            if(a.length()==1){
                 a="00"+a;
             }
         }
         return a;
     }
-    
     public static void main(String[] args) {
         /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution. */
         int in1=in.nextInt();
