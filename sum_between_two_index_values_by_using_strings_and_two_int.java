@@ -1,5 +1,5 @@
 import java.util.*;
-public class sum_between_two_index_values {
+public class sum_between_two_index_values_by_using_strings_and_two_int {
     static Scanner in =new Scanner(System.in);
     static String str="";
     static String m="0";static int sum=0;
