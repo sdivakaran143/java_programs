@@ -70,7 +70,6 @@ public class user_Id_generation {
 	}
 	
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		try(Scanner in=new Scanner(System.in)){
 			System.out.print("enter your\nFirst name :");
 			String fname=in.nextLine();
