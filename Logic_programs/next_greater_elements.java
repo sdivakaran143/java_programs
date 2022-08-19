@@ -13,7 +13,7 @@ public class next_greater_elements {
                     break;
                 }
             } 
-            if(key && i==arr.length-1||key){
+            if(key){
                 System.out.println(arr[i]+" = -1");
                 key=false;
             }
