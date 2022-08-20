@@ -1,5 +1,5 @@
 import java.util.*;
-public class replace_star_inm_diagonal {
+public class replace_star_in_diagonal {
     static Scanner in =new Scanner(System.in);
     public static void main(String[] args) {
         System.out.print("Enter the row :");
