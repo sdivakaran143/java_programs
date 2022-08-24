@@ -7,7 +7,7 @@ class ip_validation {
 
     public static void call(Boolean val) {
         if (val) {
-            System.out.println("false...");
+            System.out.println("Invalid IP...");
             System.exit(0);
         }
     }
@@ -26,6 +26,6 @@ class ip_validation {
                 call(true);
             }
         }
-        System.out.println("TRUE...");
+        System.out.println("Valid IP...");
     }
 }
