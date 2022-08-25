@@ -26,7 +26,7 @@ class hill_cipper_encryption {
        assign(val, str);
 
        int sum=0;
-		for (int i=0;i<l;i++) {
+	    for (int i=0;i<l;i++) {
 			for (int j=0;j<1;j++) {
 				for (int k=0;k<l;k++) {
 					sum+=arr[i][k]*val[k][j];
@@ -40,6 +40,5 @@ class hill_cipper_encryption {
                 System.out.print((char)((r)+'A'));
             }
         }
-
     }
 }
