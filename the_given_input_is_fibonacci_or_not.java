@@ -9,6 +9,9 @@ public class the_given_input_is_fibonacci_or_not {
                 System.out.println(val+" is the fibonacii number..");
                 System.exit(0);
             }
+            if(i>val){
+                break;
+            }
             a=b;b=c;
         }
         System.out.println(val+" is the not a fibonacii number..");

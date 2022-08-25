@@ -14,6 +14,5 @@ public class file_name_generator {
             }
         }
         System.out.print("."+ex);
-
     }
 }
