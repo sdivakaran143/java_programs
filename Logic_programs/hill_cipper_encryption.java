@@ -34,10 +34,10 @@ class hill_cipper_encryption {
 					mul[i][j]=sum%26;sum=0;
 				}
 			}
-
+            System.out.print("\nCliphhereText : ");
         for (int[] s : mul) {
             for (int r : s) {
-                System.out.print((char)(r+1)-'A');
+                System.out.print((char)((r)+'A'));
             }
         }
 
