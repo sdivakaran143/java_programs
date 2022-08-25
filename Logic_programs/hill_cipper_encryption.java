@@ -13,7 +13,7 @@ class hill_cipper_encryption {
     } 
 
     public static void main(String[] args) {
-        System.out.print("Enter the MSG : ");
+        System.out.print("Enter the PlainText : ");
         String str = in.nextLine().toUpperCase();
         int l =str.length();
         System.out.print("Enter the KEY : ");
@@ -26,15 +26,15 @@ class hill_cipper_encryption {
        assign(val, str);
 
        int sum=0;
-			for (int i=0;i<l;i++) {
-				for (int j=0;j<1;j++) {
-					for (int k=0;k<l;k++) {
-						sum+=arr[i][k]*val[k][j];
-					}
-					mul[i][j]=sum%26;sum=0;
+		for (int i=0;i<l;i++) {
+			for (int j=0;j<1;j++) {
+				for (int k=0;k<l;k++) {
+					sum+=arr[i][k]*val[k][j];
 				}
+				mul[i][j]=sum%26;sum=0;
 			}
-            System.out.print("\nCliphhereText : ");
+		}
+            System.out.print("\nCliphereText : ");
         for (int[] s : mul) {
             for (int r : s) {
                 System.out.print((char)((r)+'A'));
