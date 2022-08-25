@@ -36,7 +36,7 @@ public class to_print_Lexicographic_rank_of_string {
         ArrayList<String> List= new ArrayList<String>(hs);
         Collections.sort(List);
         for (int i = 0; i < List.size(); i++) {
-            System.out.println(List.get(i));
+            //System.out.println(List.get(i));
            if(List.get(i).equals(strmain)){
                System.out.println("Position : "+(i+1));
            }
