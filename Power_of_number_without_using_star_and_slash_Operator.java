@@ -15,8 +15,9 @@ public class Power_of_number_without_using_star_and_slash_Operator {
         int p=in.nextInt();
         int val=b;
         for (int i = 1; i <p; i++) {
+            //val=val*b;
             val=mul(val, b);
         }
-        System.out.println(val);
+        System.out.println("The value of "+b+" power "+p+" is "+val);
     }   
 }
