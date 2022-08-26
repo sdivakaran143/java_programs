@@ -1,5 +1,5 @@
 import java.util.*;
-public class the_given_input_is_fibonacci_or_not {
+public class the_given_input_is_fibonacci_or_not_1 {
     static Scanner in= new Scanner(System.in);
     static void findIffibno(int val){
         int a=-1,b=1;

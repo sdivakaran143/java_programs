@@ -1,0 +1,1022 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch Add_two_natrix",
+            "request": "launch",
+            "mainClass": "Add_two_natrix",
+            "projectName": "java_programs_51b45330"
+        },
+        {
+            "type": "java",
+            "name": "Launch Age_calculator_1",
+            "request": "launch",
+            "mainClass": "Age_calculator_1",
+            "projectName": "java_programs_51b45330"
+        },
+        {
+            "type": "java",
+            "name": "Launch Arrange_in_Acending_And_remove_duplicates",
+            "request": "launch",
+            "mainClass": "Arrange_in_Acending_And_remove_duplicates",
+            "projectName": "java_programs_51b45330"
+        },
+        {
+            "type": "java",
+            "name": "Launch Check_the_given_strings_are_equal_or_not",
+            "request": "launch",
+            "mainClass": "Check_the_given_strings_are_equal_or_not",
+            "projectName": "java_programs_51b45330"
+        },
+        {
+            "type": "java",
+            "name": "Launch Factorial_using_recursion",
+            "request": "launch",
+            "mainClass": "Factorial_using_recursion",
+            "projectName": "java_programs_51b45330"
+        },
+        {
+            "type": "java",
+            "name": "Launch Floyds_triangle",
+            "request": "launch",
+            "mainClass": "Floyds_triangle",
+            "projectName": "java_programs_51b45330"
+        },
+        {
+            "type": "java",
+            "name": "Launch Given_string_is_annagram_or_not_1",
+            "request": "launch",
+            "mainClass": "Given_string_is_annagram_or_not_1",
+            "projectName": "java_programs_51b45330"
+        },
+        {
+            "type": "java",
+            "name": "Launch Encode_three_strings",
+            "request": "launch",
+            "mainClass": "Logic_programs.Encode_three_strings",
+            "projectName": "java_programs_51b45330"
+        },
+        {
+            "type": "java",
+            "name": "Launch Encoded_array",
+            "request": "launch",
+            "mainClass": "Logic_programs.Encoded_array",
+            "projectName": "java_programs_51b45330"
+        },
+        {
+            "type": "java",
+            "name": "Launch Encoding_the_string",
+            "request": "launch",
+            "mainClass": "Logic_programs.Encoding_the_string",
+            "projectName": "java_programs_51b45330"
+        },
+        {
+            "type": "java",
+            "name": "Launch Logic_program_sum_the_position_og_digit_in_three_numbers",
+            "request": "launch",
+            "mainClass": "Logic_programs.Logic_program_sum_the_position_og_digit_in_three_numbers",
+            "projectName": "java_programs_51b45330"
+        },
+        {
+            "type": "java",
+            "name": "Launch Most_frequent_digit",
+            "request": "launch",
+            "mainClass": "Logic_programs.Most_frequent_digit",
+            "projectName": "java_programs_51b45330"
+        },
+        {
+            "type": "java",
+            "name": "Launch One_time_password_generator",
+            "request": "launch",
+            "mainClass": "Logic_programs.One_time_password_generator",
+            "projectName": "java_programs_51b45330"
+        },
+        {
+            "type": "java",
+            "name": "Launch String_encryption",
+            "request": "launch",
+            "mainClass": "Logic_programs.String_encryption",
+            "projectName": "java_programs_51b45330"
+        },
+        {
+            "type": "java",
+            "name": "Launch String_encryption_and_string_decryption",
+            "request": "launch",
+            "mainClass": "Logic_programs.String_encryption_and_string_decryption",
+            "projectName": "java_programs_51b45330"
+        },
+        {
+            "type": "java",
+            "name": "Launch decreasingarray",
+            "request": "launch",
+            "mainClass": "Logic_programs.decreasingarray",
+            "projectName": "java_programs_51b45330"
+        },
+        {
+            "type": "java",
+            "name": "Launch decreassing_array_2",
+            "request": "launch",
+            "mainClass": "Logic_programs.decreassing_array_2",
+            "projectName": "java_programs_51b45330"
+        },
+        {
+            "type": "java",
+            "name": "Launch email_id_validation",
+            "request": "launch",
+            "mainClass": "Logic_programs.email_id_validation",
+            "projectName": "java_programs_51b45330"
+        },
+        {
+            "type": "java",
+            "name": "Launch expression_calculator",
+            "request": "launch",
+            "mainClass": "Logic_programs.expression_calculator",
+            "projectName": "java_programs_51b45330"
+        },
+        {
+            "type": "java",
+            "name": "Launch hill_cipper_encryption",
+            "request": "launch",
+            "mainClass": "Logic_programs.hill_cipper_encryption",
+            "projectName": "java_programs_51b45330"
+        },
+        {
+            "type": "java",
+            "name": "Launch ip_validation",
+            "request": "launch",
+            "mainClass": "Logic_programs.ip_validation",
+            "projectName": "java_programs_51b45330"
+        },
+        {
+            "type": "java",
+            "name": "Launch next_greater_elements",
+            "request": "launch",
+            "mainClass": "Logic_programs.next_greater_elements",
+            "projectName": "java_programs_51b45330"
+        },
+        {
+            "type": "java",
+            "name": "Launch password_validation",
+            "request": "launch",
+            "mainClass": "Logic_programs.password_validation",
+            "projectName": "java_programs_51b45330"
+        },
+        {
+            "type": "java",
+            "name": "Launch permutation_method",
+            "request": "launch",
+            "mainClass": "Logic_programs.permutation_method",
+            "projectName": "java_programs_51b45330"
+        },
+        {
+            "type": "java",
+            "name": "Launch reversing_word_with_options",
+            "request": "launch",
+            "mainClass": "Logic_programs.reversing_word_with_options",
+            "projectName": "java_programs_51b45330"
+        },
+        {
+            "type": "java",
+            "name": "Launch shuffled_moth_and_year",
+            "request": "launch",
+            "mainClass": "Logic_programs.shuffled_moth_and_year",
+            "projectName": "java_programs_51b45330"
+        },
+        {
+            "type": "java",
+            "name": "Launch to_print_Lexicographic_rank_of_string",
+            "request": "launch",
+            "mainClass": "Logic_programs.to_print_Lexicographic_rank_of_string",
+            "projectName": "java_programs_51b45330"
+        },
+        {
+            "type": "java",
+            "name": "Launch to_print_the_comment_line",
+            "request": "launch",
+            "mainClass": "Logic_programs.to_print_the_comment_line",
+            "projectName": "java_programs_51b45330"
+        },
+        {
+            "type": "java",
+            "name": "Launch uncommon_char_in_a_two_string",
+            "request": "launch",
+            "mainClass": "Logic_programs.uncommon_char_in_a_two_string",
+            "projectName": "java_programs_51b45330"
+        },
+        {
+            "type": "java",
+            "name": "Launch user_Id_generation",
+            "request": "launch",
+            "mainClass": "Logic_programs.user_Id_generation",
+            "projectName": "java_programs_51b45330"
+        },
+        {
+            "type": "java",
+            "name": "Launch wifipin_generator",
+            "request": "launch",
+            "mainClass": "Logic_programs.wifipin_generator",
+            "projectName": "java_programs_51b45330"
+        },
+        {
+            "type": "java",
+            "name": "Launch Power_of_number_without_using_star_and_slash_Operator",
+            "request": "launch",
+            "mainClass": "Power_of_number_without_using_star_and_slash_Operator",
+            "projectName": "java_programs_51b45330"
+        },
+        {
+            "type": "java",
+            "name": "Launch Remove_consecutive_duplicate_characters_in_a_string",
+            "request": "launch",
+            "mainClass": "Remove_consecutive_duplicate_characters_in_a_string",
+            "projectName": "java_programs_51b45330"
+        },
+        {
+            "type": "java",
+            "name": "Launch Rotatae_the_matrix_in_clockwise_or_anticlockwise",
+            "request": "launch",
+            "mainClass": "Rotatae_the_matrix_in_clockwise_or_anticlockwise",
+            "projectName": "java_programs_51b45330"
+        },
+        {
+            "type": "java",
+            "name": "Launch String_occurence_using_hashMap",
+            "request": "launch",
+            "mainClass": "String_occurence_using_hashMap",
+            "projectName": "java_programs_51b45330"
+        },
+        {
+            "type": "java",
+            "name": "Launch String_reversing_and_palindrom_or_not",
+            "request": "launch",
+            "mainClass": "String_reversing_and_palindrom_or_not",
+            "projectName": "java_programs_51b45330"
+        },
+        {
+            "type": "java",
+            "name": "Launch String_validation",
+            "request": "launch",
+            "mainClass": "String_validation",
+            "projectName": "java_programs_51b45330"
+        },
+        {
+            "type": "java",
+            "name": "Launch Sum_of_two_complex_number",
+            "request": "launch",
+            "mainClass": "Sum_of_two_complex_number",
+            "projectName": "java_programs_51b45330"
+        },
+        {
+            "type": "java",
+            "name": "Launch Swap_two_string_without_third_variable",
+            "request": "launch",
+            "mainClass": "Swap_two_string_without_third_variable",
+            "projectName": "java_programs_51b45330"
+        },
+        {
+            "type": "java",
+            "name": "Launch Swap_two_variables_without_third_variable",
+            "request": "launch",
+            "mainClass": "Swap_two_variables_without_third_variable",
+            "projectName": "java_programs_51b45330"
+        },
+        {
+            "type": "java",
+            "name": "Launch add_two_number_in_specific_target_in_array",
+            "request": "launch",
+            "mainClass": "add_two_number_in_specific_target_in_array",
+            "projectName": "java_programs_51b45330"
+        },
+        {
+            "type": "java",
+            "name": "Launch addition_of_digits_until_a_single_digit",
+            "request": "launch",
+            "mainClass": "addition_of_digits_until_a_single_digit",
+            "projectName": "java_programs_51b45330"
+        },
+        {
+            "type": "java",
+            "name": "Launch age_calculator_2",
+            "request": "launch",
+            "mainClass": "age_calculator_2",
+            "projectName": "java_programs_51b45330"
+        },
+        {
+            "type": "java",
+            "name": "Launch arrange_odd_element_at_first_and_after_even_",
+            "request": "launch",
+            "mainClass": "arrange_odd_element_at_first_and_after_even_",
+            "projectName": "java_programs_51b45330"
+        },
+        {
+            "type": "java",
+            "name": "Launch array_n_tower",
+            "request": "launch",
+            "mainClass": "array_n_tower",
+            "projectName": "java_programs_51b45330"
+        },
+        {
+            "type": "java",
+            "name": "Launch assic_value_of_char",
+            "request": "launch",
+            "mainClass": "assic_value_of_char",
+            "projectName": "java_programs_51b45330"
+        },
+        {
+            "type": "java",
+            "name": "Launch autobiographic_number",
+            "request": "launch",
+            "mainClass": "autobiographic_number",
+            "projectName": "java_programs_51b45330"
+        },
+        {
+            "type": "java",
+            "name": "Launch binary_to_decimal_value",
+            "request": "launch",
+            "mainClass": "binary_to_decimal_value",
+            "projectName": "java_programs_51b45330"
+        },
+        {
+            "type": "java",
+            "name": "Launch brackets_validation",
+            "request": "launch",
+            "mainClass": "brackets_validation",
+            "projectName": "java_programs_51b45330"
+        },
+        {
+            "type": "java",
+            "name": "Launch character_of_strings_are_same_or_not",
+            "request": "launch",
+            "mainClass": "character_of_strings_are_same_or_not",
+            "projectName": "java_programs_51b45330"
+        },
+        {
+            "type": "java",
+            "name": "Launch check_elements_increase_or_not",
+            "request": "launch",
+            "mainClass": "check_elements_increase_or_not",
+            "projectName": "java_programs_51b45330"
+        },
+        {
+            "type": "java",
+            "name": "Launch check_last_first__char_of_the_array_values",
+            "request": "launch",
+            "mainClass": "check_last_first__char_of_the_array_values",
+            "projectName": "java_programs_51b45330"
+        },
+        {
+            "type": "java",
+            "name": "Launch check_the_array_is_subarray_of_another",
+            "request": "launch",
+            "mainClass": "check_the_array_is_subarray_of_another",
+            "projectName": "java_programs_51b45330"
+        },
+        {
+            "type": "java",
+            "name": "Launch convert_positive_to_negative_and_negative_to_positive",
+            "request": "launch",
+            "mainClass": "convert_positive_to_negative_and_negative_to_positive",
+            "projectName": "java_programs_51b45330"
+        },
+        {
+            "type": "java",
+            "name": "Launch copy_array_into_new_array",
+            "request": "launch",
+            "mainClass": "copy_array_into_new_array",
+            "projectName": "java_programs_51b45330"
+        },
+        {
+            "type": "java",
+            "name": "Launch count_and_display_the_given_words_ppresent_in_the_strig",
+            "request": "launch",
+            "mainClass": "count_and_display_the_given_words_ppresent_in_the_strig",
+            "projectName": "java_programs_51b45330"
+        },
+        {
+            "type": "java",
+            "name": "Launch count_consonant_and_vowels_in_the_string",
+            "request": "launch",
+            "mainClass": "count_consonant_and_vowels_in_the_string",
+            "projectName": "java_programs_51b45330"
+        },
+        {
+            "type": "java",
+            "name": "Launch count_the_digits_in_the_number",
+            "request": "launch",
+            "mainClass": "count_the_digits_in_the_number",
+            "projectName": "java_programs_51b45330"
+        },
+        {
+            "type": "java",
+            "name": "Launch count_the_the_number_of_words_in_a_Line",
+            "request": "launch",
+            "mainClass": "count_the_the_number_of_words_in_a_Line",
+            "projectName": "java_programs_51b45330"
+        },
+        {
+            "type": "java",
+            "name": "Launch encode_the_input_run_length",
+            "request": "launch",
+            "mainClass": "encode_the_input_run_length",
+            "projectName": "java_programs_51b45330"
+        },
+        {
+            "type": "java",
+            "name": "Launch expression_valid_or_not",
+            "request": "launch",
+            "mainClass": "expression_valid_or_not",
+            "projectName": "java_programs_51b45330"
+        },
+        {
+            "type": "java",
+            "name": "Launch factorial_of_the_given_number",
+            "request": "launch",
+            "mainClass": "factorial_of_the_given_number",
+            "projectName": "java_programs_51b45330"
+        },
+        {
+            "type": "java",
+            "name": "Launch fibonacci_series",
+            "request": "launch",
+            "mainClass": "fibonacci_series",
+            "projectName": "java_programs_51b45330"
+        },
+        {
+            "type": "java",
+            "name": "Launch file_name_generator",
+            "request": "launch",
+            "mainClass": "file_name_generator",
+            "projectName": "java_programs_51b45330"
+        },
+        {
+            "type": "java",
+            "name": "Launch find_duplicate_characters_in_a_String",
+            "request": "launch",
+            "mainClass": "find_duplicate_characters_in_a_String",
+            "projectName": "java_programs_51b45330"
+        },
+        {
+            "type": "java",
+            "name": "Launch fine_calculator",
+            "request": "launch",
+            "mainClass": "fine_calculator",
+            "projectName": "java_programs_51b45330"
+        },
+        {
+            "type": "java",
+            "name": "Launch first_non_repeted_character_ina_a_string",
+            "request": "launch",
+            "mainClass": "first_non_repeted_character_ina_a_string",
+            "projectName": "java_programs_51b45330"
+        },
+        {
+            "type": "java",
+            "name": "Launch floyds_triangle_in_string",
+            "request": "launch",
+            "mainClass": "floyds_triangle_in_string",
+            "projectName": "java_programs_51b45330"
+        },
+        {
+            "type": "java",
+            "name": "Launch gcd_and_lcm_of_the_values",
+            "request": "launch",
+            "mainClass": "gcd_and_lcm_of_the_values",
+            "projectName": "java_programs_51b45330"
+        },
+        {
+            "type": "java",
+            "name": "Launch given_number_is_prime_or_not",
+            "request": "launch",
+            "mainClass": "given_number_is_prime_or_not",
+            "projectName": "java_programs_51b45330"
+        },
+        {
+            "type": "java",
+            "name": "Launch harerRanKprogram",
+            "request": "launch",
+            "mainClass": "harerRanKprogram",
+            "projectName": "java_programs_51b45330"
+        },
+        {
+            "type": "java",
+            "name": "Launch highest_occurence_of_char_in_string",
+            "request": "launch",
+            "mainClass": "highest_occurence_of_char_in_string",
+            "projectName": "java_programs_51b45330"
+        },
+        {
+            "type": "java",
+            "name": "Launch increase_and_decrese_of_numbers",
+            "request": "launch",
+            "mainClass": "increase_and_decrese_of_numbers",
+            "projectName": "java_programs_51b45330"
+        },
+        {
+            "type": "java",
+            "name": "Launch insert_and_delete_the_element_in_the_array",
+            "request": "launch",
+            "mainClass": "insert_and_delete_the_element_in_the_array",
+            "projectName": "java_programs_51b45330"
+        },
+        {
+            "type": "java",
+            "name": "Launch list_of_names_in_acending_order",
+            "request": "launch",
+            "mainClass": "list_of_names_in_acending_order",
+            "projectName": "java_programs_51b45330"
+        },
+        {
+            "type": "java",
+            "name": "Launch list_without_list",
+            "request": "launch",
+            "mainClass": "list_without_list",
+            "projectName": "java_programs_51b45330"
+        },
+        {
+            "type": "java",
+            "name": "Launch max_and_min_in_array",
+            "request": "launch",
+            "mainClass": "max_and_min_in_array",
+            "projectName": "java_programs_51b45330"
+        },
+        {
+            "type": "java",
+            "name": "Launch merging_two_array_into_Single_array",
+            "request": "launch",
+            "mainClass": "merging_two_array_into_Single_array",
+            "projectName": "java_programs_51b45330"
+        },
+        {
+            "type": "java",
+            "name": "Launch missing_number_in_array",
+            "request": "launch",
+            "mainClass": "missing_number_in_array",
+            "projectName": "java_programs_51b45330"
+        },
+        {
+            "type": "java",
+            "name": "Launch multiply_two_matrix",
+            "request": "launch",
+            "mainClass": "multiply_two_matrix",
+            "projectName": "java_programs_51b45330"
+        },
+        {
+            "type": "java",
+            "name": "Launch n_number_of_primes",
+            "request": "launch",
+            "mainClass": "n_number_of_primes",
+            "projectName": "java_programs_51b45330"
+        },
+        {
+            "type": "java",
+            "name": "Launch neon_number",
+            "request": "launch",
+            "mainClass": "neon_number",
+            "projectName": "java_programs_51b45330"
+        },
+        {
+            "type": "java",
+            "name": "Launch number_of_digits_in_the_expression",
+            "request": "launch",
+            "mainClass": "number_of_digits_in_the_expression",
+            "projectName": "java_programs_51b45330"
+        },
+        {
+            "type": "java",
+            "name": "Launch occurence_of_a_string_without_hash_map",
+            "request": "launch",
+            "mainClass": "occurence_of_a_string_without_hash_map",
+            "projectName": "java_programs_51b45330"
+        },
+        {
+            "type": "java",
+            "name": "Launch occurence_of_the_element_in_the_array",
+            "request": "launch",
+            "mainClass": "occurence_of_the_element_in_the_array",
+            "projectName": "java_programs_51b45330"
+        },
+        {
+            "type": "java",
+            "name": "Launch paranthesis_check_valid_or_not",
+            "request": "launch",
+            "mainClass": "paranthesis_check_valid_or_not",
+            "projectName": "java_programs_51b45330"
+        },
+        {
+            "type": "java",
+            "name": "Launch pascals_triangle",
+            "request": "launch",
+            "mainClass": "pascals_triangle",
+            "projectName": "java_programs_51b45330"
+        },
+        {
+            "type": "java",
+            "name": "Launch percentage_between_old_and_new_stock",
+            "request": "launch",
+            "mainClass": "percentage_between_old_and_new_stock",
+            "projectName": "java_programs_51b45330"
+        },
+        {
+            "type": "java",
+            "name": "Launch possible_subsrtings_in_a_string",
+            "request": "launch",
+            "mainClass": "possible_subsrtings_in_a_string",
+            "projectName": "java_programs_51b45330"
+        },
+        {
+            "type": "java",
+            "name": "Launch power_of_the_number",
+            "request": "launch",
+            "mainClass": "power_of_the_number",
+            "projectName": "java_programs_51b45330"
+        },
+        {
+            "type": "java",
+            "name": "Launch print_1_to_100_in_recursiuon_or_without_using_loop",
+            "request": "launch",
+            "mainClass": "print_1_to_100_in_recursiuon_or_without_using_loop",
+            "projectName": "java_programs_51b45330"
+        },
+        {
+            "type": "java",
+            "name": "Launch print_a_string_in_pattern_h_el_low_orld",
+            "request": "launch",
+            "mainClass": "print_a_string_in_pattern_h_el_low_orld",
+            "projectName": "java_programs_51b45330"
+        },
+        {
+            "type": "java",
+            "name": "Launch print_the_digits_in_a_string",
+            "request": "launch",
+            "mainClass": "print_the_digits_in_a_string",
+            "projectName": "java_programs_51b45330"
+        },
+        {
+            "type": "java",
+            "name": "Launch reciprocal_of_the_character",
+            "request": "launch",
+            "mainClass": "reciprocal_of_the_character",
+            "projectName": "java_programs_51b45330"
+        },
+        {
+            "type": "java",
+            "name": "Launch remove_the_before_and_after_char_of_star",
+            "request": "launch",
+            "mainClass": "remove_the_before_and_after_char_of_star",
+            "projectName": "java_programs_51b45330"
+        },
+        {
+            "type": "java",
+            "name": "Launch replace_a_word_in_a_string",
+            "request": "launch",
+            "mainClass": "replace_a_word_in_a_string",
+            "projectName": "java_programs_51b45330"
+        },
+        {
+            "type": "java",
+            "name": "Launch replace_char_in_a_string_without_replace_method",
+            "request": "launch",
+            "mainClass": "replace_char_in_a_string_without_replace_method",
+            "projectName": "java_programs_51b45330"
+        },
+        {
+            "type": "java",
+            "name": "Launch replace_star_in_diagonal",
+            "request": "launch",
+            "mainClass": "replace_star_in_diagonal",
+            "projectName": "java_programs_51b45330"
+        },
+        {
+            "type": "java",
+            "name": "Launch replace_the_char_by_star",
+            "request": "launch",
+            "mainClass": "replace_the_char_by_star",
+            "projectName": "java_programs_51b45330"
+        },
+        {
+            "type": "java",
+            "name": "Launch replace_the_vowels_in_the_String",
+            "request": "launch",
+            "mainClass": "replace_the_vowels_in_the_String",
+            "projectName": "java_programs_51b45330"
+        },
+        {
+            "type": "java",
+            "name": "Launch reverse_and_sum_of_arrays",
+            "request": "launch",
+            "mainClass": "reverse_and_sum_of_arrays",
+            "projectName": "java_programs_51b45330"
+        },
+        {
+            "type": "java",
+            "name": "Launch reverse_the_line_without_reversing_words",
+            "request": "launch",
+            "mainClass": "reverse_the_line_without_reversing_words",
+            "projectName": "java_programs_51b45330"
+        },
+        {
+            "type": "java",
+            "name": "Launch reverse_the_string",
+            "request": "launch",
+            "mainClass": "reverse_the_string",
+            "projectName": "java_programs_51b45330"
+        },
+        {
+            "type": "java",
+            "name": "Launch ro_seprate_character_specialCharacter_numbers_in_the_string",
+            "request": "launch",
+            "mainClass": "ro_seprate_character_specialCharacter_numbers_in_the_string",
+            "projectName": "java_programs_51b45330"
+        },
+        {
+            "type": "java",
+            "name": "Launch round_a_decimal_number_specified_by_the_user",
+            "request": "launch",
+            "mainClass": "round_a_decimal_number_specified_by_the_user",
+            "projectName": "java_programs_51b45330"
+        },
+        {
+            "type": "java",
+            "name": "Launch screate_number",
+            "request": "launch",
+            "mainClass": "screate_number",
+            "projectName": "java_programs_51b45330"
+        },
+        {
+            "type": "java",
+            "name": "Launch second_maximum_number_in_the_array",
+            "request": "launch",
+            "mainClass": "second_maximum_number_in_the_array",
+            "projectName": "java_programs_51b45330"
+        },
+        {
+            "type": "java",
+            "name": "Launch seprate_theNimbers_from_the_string",
+            "request": "launch",
+            "mainClass": "seprate_theNimbers_from_the_string",
+            "projectName": "java_programs_51b45330"
+        },
+        {
+            "type": "java",
+            "name": "Launch shuffle_array",
+            "request": "launch",
+            "mainClass": "shuffle_array",
+            "projectName": "java_programs_51b45330"
+        },
+        {
+            "type": "java",
+            "name": "Launch split_the_given_string",
+            "request": "launch",
+            "mainClass": "split_the_given_string",
+            "projectName": "java_programs_51b45330"
+        },
+        {
+            "type": "java",
+            "name": "Launch split_the_string",
+            "request": "launch",
+            "mainClass": "split_the_string",
+            "projectName": "java_programs_51b45330"
+        },
+        {
+            "type": "java",
+            "name": "Launch square_root_of_the_number",
+            "request": "launch",
+            "mainClass": "square_root_of_the_number",
+            "projectName": "java_programs_51b45330"
+        },
+        {
+            "type": "java",
+            "name": "Launch string_is_annagram_or_not_2",
+            "request": "launch",
+            "mainClass": "string_is_annagram_or_not_2",
+            "projectName": "java_programs_51b45330"
+        },
+        {
+            "type": "java",
+            "name": "Launch string_modify_logic",
+            "request": "launch",
+            "mainClass": "string_modify_logic",
+            "projectName": "java_programs_51b45330"
+        },
+        {
+            "type": "java",
+            "name": "Launch string_palindrom_or_not",
+            "request": "launch",
+            "mainClass": "string_palindrom_or_not",
+            "projectName": "java_programs_51b45330"
+        },
+        {
+            "type": "java",
+            "name": "Launch string_reversing_by_using_loop_and_StringBuilder",
+            "request": "launch",
+            "mainClass": "string_reversing_by_using_loop_and_StringBuilder",
+            "projectName": "java_programs_51b45330"
+        },
+        {
+            "type": "java",
+            "name": "Launch student_grade_calculator",
+            "request": "launch",
+            "mainClass": "student_grade_calculator",
+            "projectName": "java_programs_51b45330"
+        },
+        {
+            "type": "java",
+            "name": "Launch substring_the_string_by_user_count",
+            "request": "launch",
+            "mainClass": "substring_the_string_by_user_count",
+            "projectName": "java_programs_51b45330"
+        },
+        {
+            "type": "java",
+            "name": "Launch sum_between_two_index_values",
+            "request": "launch",
+            "mainClass": "sum_between_two_index_values",
+            "projectName": "java_programs_51b45330"
+        },
+        {
+            "type": "java",
+            "name": "Launch sum_between_two_index_values_by_using_strings_and_two_int",
+            "request": "launch",
+            "mainClass": "sum_between_two_index_values_by_using_strings_and_two_int",
+            "projectName": "java_programs_51b45330"
+        },
+        {
+            "type": "java",
+            "name": "Launch sum_of_digits_in_a_string",
+            "request": "launch",
+            "mainClass": "sum_of_digits_in_a_string",
+            "projectName": "java_programs_51b45330"
+        },
+        {
+            "type": "java",
+            "name": "Launch sum_of_odd_and_even_elements_in_arrray",
+            "request": "launch",
+            "mainClass": "sum_of_odd_and_even_elements_in_arrray",
+            "projectName": "java_programs_51b45330"
+        },
+        {
+            "type": "java",
+            "name": "Launch sum_of_prime_and_non_prime_index_elements",
+            "request": "launch",
+            "mainClass": "sum_of_prime_and_non_prime_index_elements",
+            "projectName": "java_programs_51b45330"
+        },
+        {
+            "type": "java",
+            "name": "Launch sum_the_pos_of_the_digit_without_vowels",
+            "request": "launch",
+            "mainClass": "sum_the_pos_of_the_digit_without_vowels",
+            "projectName": "java_programs_51b45330"
+        },
+        {
+            "type": "java",
+            "name": "Launch sumed_partitioned_into_two_subsets_equals_sumed_combination",
+            "request": "launch",
+            "mainClass": "sumed_partitioned_into_two_subsets_equals_sumed_combination",
+            "projectName": "java_programs_51b45330"
+        },
+        {
+            "type": "java",
+            "name": "Launch tech_number",
+            "request": "launch",
+            "mainClass": "tech_number",
+            "projectName": "java_programs_51b45330"
+        },
+        {
+            "type": "java",
+            "name": "Launch the_given_input_is_fibonacci_or_not_1",
+            "request": "launch",
+            "mainClass": "the_given_input_is_fibonacci_or_not_1",
+            "projectName": "java_programs_51b45330"
+        },
+        {
+            "type": "java",
+            "name": "Launch the_given_input_is_fibonacci_or_not_2",
+            "request": "launch",
+            "mainClass": "the_given_input_is_fibonacci_or_not_2",
+            "projectName": "java_programs_51b45330"
+        },
+        {
+            "type": "java",
+            "name": "Launch to_check_summit_string_or_not",
+            "request": "launch",
+            "mainClass": "to_check_summit_string_or_not",
+            "projectName": "java_programs_51b45330"
+        },
+        {
+            "type": "java",
+            "name": "Launch to_check_the_given_number_is_amstrong_or_not",
+            "request": "launch",
+            "mainClass": "to_check_the_given_number_is_amstrong_or_not",
+            "projectName": "java_programs_51b45330"
+        },
+        {
+            "type": "java",
+            "name": "Launch to_check_the_given_string_is_isomorphic_or_not",
+            "request": "launch",
+            "mainClass": "to_check_the_given_string_is_isomorphic_or_not",
+            "projectName": "java_programs_51b45330"
+        },
+        {
+            "type": "java",
+            "name": "Launch to_convet_romman_letters_ti_nummeric",
+            "request": "launch",
+            "mainClass": "to_convet_romman_letters_ti_nummeric",
+            "projectName": "java_programs_51b45330"
+        },
+        {
+            "type": "java",
+            "name": "Launch to_count_words_char_int_schar_in_the_line",
+            "request": "launch",
+            "mainClass": "to_count_words_char_int_schar_in_the_line",
+            "projectName": "java_programs_51b45330"
+        },
+        {
+            "type": "java",
+            "name": "Launch to_find_values_are_magic_square_or_not",
+            "request": "launch",
+            "mainClass": "to_find_values_are_magic_square_or_not",
+            "projectName": "java_programs_51b45330"
+        },
+        {
+            "type": "java",
+            "name": "Launch to_generate_roman_letters",
+            "request": "launch",
+            "mainClass": "to_generate_roman_letters",
+            "projectName": "java_programs_51b45330"
+        },
+        {
+            "type": "java",
+            "name": "Launch to_print_prime_ascii_value_of_char_in_string",
+            "request": "launch",
+            "mainClass": "to_print_prime_ascii_value_of_char_in_string",
+            "projectName": "java_programs_51b45330"
+        },
+        {
+            "type": "java",
+            "name": "Launch to_print_upper_and_lower_triangle_in_matrix",
+            "request": "launch",
+            "mainClass": "to_print_upper_and_lower_triangle_in_matrix",
+            "projectName": "java_programs_51b45330"
+        },
+        {
+            "type": "java",
+            "name": "Launch to_print_vowels_in_the_given_string",
+            "request": "launch",
+            "mainClass": "to_print_vowels_in_the_given_string",
+            "projectName": "java_programs_51b45330"
+        },
+        {
+            "type": "java",
+            "name": "Launch to_remove_char_digit_special_in_expresion",
+            "request": "launch",
+            "mainClass": "to_remove_char_digit_special_in_expresion",
+            "projectName": "java_programs_51b45330"
+        },
+        {
+            "type": "java",
+            "name": "Launch transpose_the_Given_matrix",
+            "request": "launch",
+            "mainClass": "transpose_the_Given_matrix",
+            "projectName": "java_programs_51b45330"
+        },
+        {
+            "type": "java",
+            "name": "Launch uncommon_value_between_two_string",
+            "request": "launch",
+            "mainClass": "uncommon_value_between_two_string",
+            "projectName": "java_programs_51b45330"
+        },
+        {
+            "type": "java",
+            "name": "Launch unique_element_in_the_array",
+            "request": "launch",
+            "mainClass": "unique_element_in_the_array",
+            "projectName": "java_programs_51b45330"
+        },
+        {
+            "type": "java",
+            "name": "Launch volume_of_the_box_usingClass",
+            "request": "launch",
+            "mainClass": "volume_of_the_box_usingClass",
+            "projectName": "java_programs_51b45330"
+        },
+        {
+            "type": "java",
+            "name": "Launch wave_form",
+            "request": "launch",
+            "mainClass": "wave_form",
+            "projectName": "java_programs_51b45330"
+        }
+    ]
+}
