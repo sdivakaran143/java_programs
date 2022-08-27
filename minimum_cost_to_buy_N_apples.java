@@ -30,7 +30,7 @@ public class minimum_cost_to_buy_N_apples {
         int m=0;
         for(int i=0;i<c;i++){
             if(m>=c){
-                System.out.println((int)m*val);
+                System.out.println((int)(m*val));
                 break;
             }
             else{
