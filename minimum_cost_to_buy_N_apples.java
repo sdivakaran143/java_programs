@@ -5,17 +5,17 @@ public class minimum_cost_to_buy_N_apples {
         System.out.print("enter the Count : ");
         int c=in.nextInt();
         System.out.print("Enter the shop 1 quantity : ");
-        int s1=in.nextInt();
+        double s1=in.nextInt();
         System.out.print("Enter the shop 1 price : ");
-        int s1m=in.nextInt();
+        double s1m=in.nextInt();
         System.out.print("Enter the shop 2 quantity : ");
-        int s2=in.nextInt();
+        double s2=in.nextInt();
         System.out.print("Enter the shop 1 price : ");
-        int s2m=in.nextInt();
-        int sc=0,val=0;
+        double s2m=in.nextInt();
+        double sc=0,val=0;
 
-        int v1=(s1m/s1);
-        int v2=(s2m/s2);
+        Double v1=(s1m/s1);
+        Double v2=(s2m/s2);
 
         if(v1<v2){
             System.out.print("shop 1 is best Rs ");
@@ -30,7 +30,7 @@ public class minimum_cost_to_buy_N_apples {
         int m=0;
         for(int i=0;i<c;i++){
             if(m>=c){
-                System.out.println(m*val);
+                System.out.println((int)m*val);
                 break;
             }
             else{
