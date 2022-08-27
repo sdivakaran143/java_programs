@@ -33,9 +33,7 @@ public class minimum_cost_to_buy_N_apples {
                 System.out.println((int)(m*val));
                 break;
             }
-            else{
                 m+=sc;
-            }
         }
 
     
