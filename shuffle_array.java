@@ -9,7 +9,6 @@ public class shuffle_array {
             arr[r]=arr[i];
             arr[i]=temp;
         }
-
     }
     public static void main(String[] args) {
         System.out.print("Enter the size of the Array : ");
