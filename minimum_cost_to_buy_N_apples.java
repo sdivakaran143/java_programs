@@ -23,7 +23,7 @@ public class minimum_cost_to_buy_N_apples {
             val=v1;
         }
         else{
-            System.out.println("shop 1 is best Rs ");
+            System.out.print("shop 2 is best Rs ");
             sc=s2;
             val=v2;
         }
@@ -36,7 +36,5 @@ public class minimum_cost_to_buy_N_apples {
                 m+=sc;
         }
 
-    
-        //System.out.println(v1+" "+v2);
     }
 }
