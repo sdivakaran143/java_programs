@@ -2,7 +2,7 @@ class patient{
     String name;
     Double weight;
     Double height;
-    patient(String name,Double height,Double weight){
+    patient(String name,double height,double weight){
         this.name=name;
         this.height=height;
         this.weight=weight;
@@ -21,7 +21,7 @@ class patients {
         objarr[2] =new patient("kumar", 3.8, 70.00);
         objarr[3] =new patient("naveen", 1.8, 90.00);
         objarr[4] =new patient("marveen", 1.8, 90.58);
-        objarr[5] =new patient("kums", 1.8, 100d);
+        objarr[5] =new patient("kums", 123, 100.45);
         objarr[6] =new patient("ravi", 2.2, 92d);    
         objarr[7] =new patient("mugin",1.5, 68d);    
         objarr[8] =new patient("ravuthar", 1.2, 79d);    
