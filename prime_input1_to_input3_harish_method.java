@@ -2,7 +2,6 @@ import java.util.*;
 public class prime_input1_to_input3_harish_method {
 	static Scanner in =new Scanner(System.in);
 	static boolean CheckPrime(int n) {
-		boolean res=true;
 		for(int i=2;i*i<=n;i++){
 			if(n%i==0) {
 				return false;
