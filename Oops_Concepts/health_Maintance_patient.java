@@ -1,4 +1,3 @@
-package Oops_Concepts;
 class patient{
     String name;
     Double weight;
