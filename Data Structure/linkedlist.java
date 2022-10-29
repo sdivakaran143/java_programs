@@ -36,6 +36,7 @@ public class linkedlist {
         }
         curnode.next=newnode;
      }
+     
     public void print(){
         node curnode=head;
         while(curnode!=null){
@@ -44,6 +45,7 @@ public class linkedlist {
         }
         System.out.print("Null");
     }
+
     public void addMiddle(int data){
         node newnode=new node(data);
         System.out.print("ENter the position to insert the node : ");
