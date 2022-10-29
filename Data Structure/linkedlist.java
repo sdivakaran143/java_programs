@@ -1,8 +1,4 @@
-import java.net.Authenticator.RequestorType;
-import java.rmi.server.RemoteStub;
 import java.util.*;
-
-import javax.print.DocFlavor.READER;
 public class linkedlist {
     static Scanner in=new Scanner(System.in);
    public node head;
