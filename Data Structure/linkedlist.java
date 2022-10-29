@@ -1,4 +1,8 @@
+import java.net.Authenticator.RequestorType;
+import java.rmi.server.RemoteStub;
 import java.util.*;
+
+import javax.print.DocFlavor.READER;
 public class linkedlist {
     static Scanner in=new Scanner(System.in);
    public node head;
@@ -24,6 +28,7 @@ public class linkedlist {
         node newnode=new node(data);
         if(head==null){
             head=newnode;
+            return;
         }
         node curnode=head;
         while(curnode.next!=null){
@@ -43,10 +48,10 @@ public class linkedlist {
         node newnode=new node(data);
         System.out.print("ENter the position to insert the node : ");
         int pos =in.nextInt();
-        // if(head==null){
-        //     System.out.println("Head is empty....");
-        //     return;
-        // }
+        if(head==null){
+             System.out.println("Head is empty....");
+             return;
+         }
         if(pos==1){
             addfirst(data);
             return;

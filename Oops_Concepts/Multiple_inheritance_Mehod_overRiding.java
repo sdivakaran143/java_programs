@@ -1,30 +1,30 @@
 
 class college{
     String collegename="KSRCE";
-    int fees=150000;
+    private int fees=150000;
 } 
 class cse extends college{
     int fees=77000;
-        public static void raid(){
+        public void raid(){
             System.out.println(" 1");
         }
     
 }
 class it extends college{
         int fees=72000;
-        public static void raid(){
+        public void raid(){
             System.out.println(" 2");
         }
     
 }
 class ece extends it{
         int fees=super.fees;
-        public static void raid(){
+        public void raid(){
             System.out.println(" 3");
         }
 
 }
-public class Main  {
+public class Multiple_inheritance_Mehod_overRiding  {
  public static void main(String[] args) {
     cse obj=new cse();
         it obj1=new it();
