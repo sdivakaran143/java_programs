@@ -1,5 +1,5 @@
 import java.util.*;
-public class linklist {
+public class linkedlist {
     static Scanner in=new Scanner(System.in);
    public node head;
     public static class node{
@@ -146,7 +146,7 @@ public class linklist {
     } 
 
     public static void main(String[] args) {
-        linklist li=new linklist();
+        linkedlist li=new linkedlist();
        while(true){
        System.out.print("\n1.ADD FIRST\n2.ADD LAST\n3.ADD MIDDLE\n4.DELETE FIRST\n5.DELETE LAST\n6.DELETE MIDLE\n7.DELETE SEARCH\n8.MODIFY VALUE\n9.DISPLAY THE LIST\nEnter option : ");
        int choice =in.nextInt();
