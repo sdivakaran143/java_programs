@@ -62,7 +62,7 @@ public class DoublyLinkList {
         Node curNode=head;
         head=curNode.right;
     }
-
+    
     public static void main(String[] args) {
         DoublyLinkList dll=new DoublyLinkList();
         dll.addfirst(10);
@@ -72,8 +72,6 @@ public class DoublyLinkList {
         dll.addlast(35);
         dll.deletefirst();
         dll.deletefirst();
-
-
         dll.print();
     }
 }
