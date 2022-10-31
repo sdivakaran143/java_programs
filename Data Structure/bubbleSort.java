@@ -1,4 +1,6 @@
+import java.util.*;
 public class bubbleSort {
+    static Scanner in =new Scanner("System.in");
     public static void main(String[] args) {
         int[] arr= {10,55,22,66,88,25,6,54};
         for (int i = 0; i < arr.length-1; i++) {

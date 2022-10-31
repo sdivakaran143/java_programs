@@ -1,7 +1,7 @@
 
 class college{
     String collegename="KSRCE";
-    private int fees=150000;
+    //private int fees=150000;
 } 
 class cse extends college{
     int fees=77000;

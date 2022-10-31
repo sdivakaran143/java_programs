@@ -1,5 +1,5 @@
 
-public class queues {
+public class queues_in_Array {
     static int size = 5;
     static int[] arr =new int[size];
     static int front=0;static int rear=-1;

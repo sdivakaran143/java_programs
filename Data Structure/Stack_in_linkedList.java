@@ -60,6 +60,7 @@ public class Stack_in_linkedList {
                 break;
             case 3:
                 Sll.display();
+                break;
             default:
             System.out.println("Program Exited...");
             System.exit(0);
