@@ -22,7 +22,6 @@ class ece extends it{
         public void raid(){
             System.out.println(" 3");
         }
-
 }
 public class Multiple_inheritance_Mehod_overRiding  {
  public static void main(String[] args) {
