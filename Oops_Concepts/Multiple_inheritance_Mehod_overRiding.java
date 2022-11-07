@@ -13,7 +13,7 @@ class cse extends college{
 class it extends college{
         int fees=72000;
         public void raid(){
-            System.out.println(" 2");
+            System.out.println("2");
         }
     
 }
