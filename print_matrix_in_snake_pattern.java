@@ -13,7 +13,6 @@ public class print_matrix_in_snake_pattern {
         for (int i : arr) {
             System.out.print(i+" ");
         }
-        System.out.print("\t");
     }
     public static void  decending(int[] arr){
         for (int i = 0; i < arr.length-1; i++) {
@@ -27,7 +26,6 @@ public class print_matrix_in_snake_pattern {
         for (int i : arr) {
             System.out.print(i+" ");
         }
-        System.out.print("\t");
     }
 
     public static void main(String[] args) {
@@ -46,5 +44,4 @@ public class print_matrix_in_snake_pattern {
             }
         }
     }
-} 
-    
+}
