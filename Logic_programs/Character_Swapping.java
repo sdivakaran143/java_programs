@@ -71,6 +71,8 @@ import java.util.Scanner;
     static Scanner in =new Scanner(System.in);
     public static void main(String[] args) {
         String str ="Tody is preassessment";
+        // String str ="iam harish preassessment is";
+
         String[] arr=str.split(" ");
         for (int i = 0; i < arr.length; i++) {
             int slen=arr[i].length();
@@ -92,5 +94,6 @@ import java.util.Scanner;
         for (String string : arr) {
             output+=string+" ";
         }
+        System.out.print(output);
     }
 }
