@@ -12,12 +12,10 @@ public class Queries_on_subsequence_of_string {
                 if(m!=-1){
                     str1=str1.substring(m+1); 
                 }else{
-                    System.out.println("No");
-                    break;
+                    System.out.println("No");break;
                 }
                 if(k==arr[i].length()-1){
-                    System.out.println("Yes");
-                    break;
+                    System.out.println("Yes");break;
                 }k++;
             }
         }    
