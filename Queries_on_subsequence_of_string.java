@@ -6,8 +6,7 @@ public class Queries_on_subsequence_of_string {
         String str = in.nextLine();
         String arr[] ={"gg","gro","gfg","orf"};
         for (int i = 0; i < arr.length; i++) {
-            int k=0;
-            String str1 =str;
+            int k=0;String str1 =str;
             for (int j = 0; j < str.length(); j++) {
                 int m=str1.indexOf(arr[i].charAt(k));
                 if(m!=-1){
