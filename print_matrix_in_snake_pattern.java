@@ -31,7 +31,7 @@ public class print_matrix_in_snake_pattern {
     public static void main(String[] args) {
         // int arr[][] =new int[1][3];
         boolean res=true;
-        int arr[][]={ {10, 20,40, 30,},{15, 25, 35, 45},{27, 29, 37, 48},{32, 33, 39, 50}};
+        int arr[][]={ {1,3,4},{4,2,1},{7,8,2}};
         
         for (int[] is : arr) {
             if(res){
