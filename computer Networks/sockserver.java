@@ -14,6 +14,7 @@ public class sockserver {
                 System.out.println("client left ......");
                 break;
             }
+            
             System.out.println("client : "+i);
         }
     }

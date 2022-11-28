@@ -1,35 +1,28 @@
-import java.io.*;
-import java.net.*;
-import java.util.Scanner;
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.io.PrintWriter;
+import java.net.Socket;
 
-class stopandwait {
-    public static void main(String args[]) throws Exception {
-        stopandwait sws = new stopandwait();
-        sws.run();
-    }
-
-    public void run() throws Exception {
-        Scanner sc = new Scanner(System.in);
-        System.out.println("Enter no of frames to be sent:");
-        int n = sc.nextInt();
-        Socket myskt = new Socket("localhost", 9999);
-        PrintStream myps = new PrintStream(myskt.getOutputStream());
-        for (int i = 0; i <= n;) {
-            if (i == n) {
-                myps.println("exit");
+public class stopandwait{
+    public static void main(String[] args) throws IOException, InterruptedException {
+        Socket s=new Socket("localhost",9999);
+        System.out.println("you are connected.....");
+        PrintWriter ptr =new PrintWriter(s.getOutputStream());
+        InputStreamReader inps=new InputStreamReader(s.getInputStream());
+        for (int i = 0; i <=5; i++) {
+            if(i==5){
+                ptr.println("exit");
+                ptr.flush();
                 break;
             }
-            System.out.println("Frame no " + i + " is sent");
-            myps.println(i);
-            BufferedReader bf = new BufferedReader(new InputStreamReader(myskt.getInputStream()));
-            String ack = bf.readLine();
-            System.out.println(ack);
-            if (ack != null) {
-                System.out.println("Acknowledgement was Received from receiver");
-                i++;
-                Thread.sleep(4000);
-            } else {
-                myps.println(i);
+            ptr.println(i);
+            ptr.flush();
+            BufferedReader br=new BufferedReader(inps);
+            String ack=br.readLine();
+            if(ack.equals("recived")){
+                System.err.println("ack recived for "+i);
+                Thread.sleep(3000);
             }
         }
     }
