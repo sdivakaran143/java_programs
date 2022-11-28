@@ -17,6 +17,7 @@ public class stopandwaitreciver {
         while (temp.compareTo(str) != 0) {
             Thread.sleep(1000);
             temp = ss_bf.readLine();
+            System.out.println(temp);
             if (temp.compareTo(str) == 0) {
                 break;
             }

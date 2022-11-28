@@ -23,6 +23,7 @@ class stopandwait {
             myps.println(i);
             BufferedReader bf = new BufferedReader(new InputStreamReader(myskt.getInputStream()));
             String ack = bf.readLine();
+            System.out.println(ack);
             if (ack != null) {
                 System.out.println("Acknowledgement was Received from receiver");
                 i++;
