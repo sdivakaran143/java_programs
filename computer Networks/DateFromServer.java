@@ -12,7 +12,7 @@ public class DateFromServer {
         Socket s=ss.accept();
         System.out.println("client connected.....");
         PrintWriter ptr=new PrintWriter(s.getOutputStream());
-        ptr.println("server Date "+(new Date()).toString());
+        ptr.println("server Date "+(new Date()));
         ptr.flush();
     }
 }
