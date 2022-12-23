@@ -38,10 +38,10 @@ class objectAndClassBasic{
                 student obj2=new student(2013024,"IT");        
                 student obj=new student();
                 // obj.setData();
-                obj.getData();
                 //obj.reg=2013022;
                 //System.out.println(obj.reg);
                 obj1.getData();
                 obj2.getData();
-    }
+                obj.getData();
+            }
 }
