@@ -1,0 +1,18 @@
+<Read>
+    read in txt file:
+        we can read the file in many ways we can use Scanner
+
+        ->import java.util.Scanner; and import java.io.File; 
+
+    File f=new File ("<FilePath>"); // add the FileNotFoundException to avoid error near the 
+                                    // main() FileNotFoundException {} like this 
+    Scanner in =new Scanner(File);
+
+    while(in.hasNext()){ 
+        System.out.println(in.next());   
+    }
+
+[NOTE:
+    in.hasNext()=>it says there is a next line is in txt file 
+    in.next()=>it prints the line by line from the txt file
+    ]
