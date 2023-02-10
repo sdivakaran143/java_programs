@@ -215,7 +215,8 @@ refer : "https://www.youtube.com/watch?v=tNAFztV_meE"
                 com
         --------------------------------------------------------------------------------------------------------------        
         TYPE 3 Constructor:
-                                                                                      |-> boolean (it indicates that the delimeter is counted or not )
+                                                                                      |-> boolean (it indicates that the 
+                                                                                      |      delimeter is counted or not)
             StringTokenizer strizer =new StringTokenizer("www.sdivakaran143.com",".",true);
                                                            L-> string             L->String(delimiters)
 
@@ -273,3 +274,19 @@ refer : "https://www.youtube.com/watch?v=tNAFztV_meE"
 >=================================================================================================================================<
 
 <Activities>
+    To check if the Mobile number is valid or Not 
+        
+        Pattern ptrn = Pattern.compile("(0|91)?[6-9][0-9]{10}");
+        Matcher mchr=ptrn.matcher(str);
+        Boolean b =mchr.find();
+    
+    "^(0|91)?[6-9][0-9]{10}"
+         |     |    |   |    
+         |     |    |   |
+         |     |    |   it specifies that the minimum matcher is 10 (length)
+         |     |  it checks that comntains 0 to 96
+         |     it checks that the first or number after (0|91) number must with in 6 to 9
+         |
+         it  checks the starting is 0 or 91
+
+<==============================================================END OF THE FILE============================================================>
