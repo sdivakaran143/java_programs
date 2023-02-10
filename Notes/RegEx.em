@@ -8,7 +8,7 @@
         
         #character class can be defined with in the [square brackets]
 
-        #
+        # StringTokenizer is a legacy class (legacy class means the class is comming along with the JDK 1.0 to till now)
 
 >--------------------------------------------------------------------------------------------------------------------------------<
 
@@ -147,6 +147,8 @@ refer : "https://www.youtube.com/watch?v=tNAFztV_meE"
 <split,string>
             split("\\s") => split by space 
             split("\\.") => split by dot 
+            split("\\-") => split by Minus
+            split("\\specialcharacter") => split by specialcharacters where ever it is   
 
         String[] stra=Pattern.compile("a").split(str);
             output:
@@ -163,3 +165,108 @@ refer : "https://www.youtube.com/watch?v=tNAFztV_meE"
         the both are common the both method are stored in string arr[] 
 
 >--------------------------------------------------------------------------------------------------------------------------------<
+<String Tokenizer class>
+
+        string tokenizer is the one of the package of the java.util.stringTokenizer\\
+        
+        => stringTokenizer breakes the string into tokens 
+            if you need to use stringTokenizer you need to use the constructor
+            we usually knows that if we creates the object it automatically calls the constructor 
+        
+        we can create a object like ...
+         StringTokenizer str = new StringTokenizer();
+                                            L->  while typing this in vscode presc ctrl+space to know about the constructors
+                                            there are three types of constructors 
+                                                Type 1 # StringTokenizer(String)
+                                                Type 2 # StringTokenizer(String,String)
+                                                Type 3 # StringTokenizer(String,String,boolean)
+        
+        for example:
+            StringTokenizer strizer =new StringTokenizer("divakaran from paramathi velur");
+
+        [NOTE : => 
+            strizer.countTokens()=> it returns how torkens are there (that means breaked torkens)
+            strizer.hasMoreToken()=> retuns boolean value it checks there is torken or not (we use this in while loop)
+            strizer.nexttoken()=> it returns the token 
+        ]
+
+        NOTE : 
+            how it splits by the space?
+                => in this StringTokenizer  its splits by the delimiter ," "(space) is a default delimiters in StringTokenizer  
+
+        --------------------------------------------------------------------------------------------------------------        
+        TYPE 1 Constructor: 
+            StringTokenizer strizer =new StringTokenizer("divakaran from paramathi velur");
+                                                                  L-> string 
+            System.out.println(strizer.countTokens());
+            //it outputs :  4
+        --------------------------------------------------------------------------------------------------------------        
+        TYPE 2 Constructor:
+
+            StringTokenizer strizer =new StringTokenizer("www.sdivakaran143.com",".");
+                                                           L-> string             L->String(delimiters)
+            while(strizer.hasMoreToken()){
+                    System.out.println(strizer.nextTorken());
+            }
+
+            //output :
+                www
+                sdivakaran143
+                com
+        --------------------------------------------------------------------------------------------------------------        
+        TYPE 3 Constructor:
+                                                                                      |-> boolean (it indicates that the delimeter is counted or not )
+            StringTokenizer strizer =new StringTokenizer("www.sdivakaran143.com",".",true);
+                                                           L-> string             L->String(delimiters)
+
+            parameter three : it a boolean trhatv soecifies that the delimeter is included or not                                              
+
+            StringTokenizer strizer3 =new StringTokenizer("www.sdivakaran143.com",".",true);
+
+            if the thrid parameters is true the ouput be like :
+            
+                    //ouput:(parameter3:true)               |      //ouput:(parameter3:false)      
+                                    www                     |              www       
+                                    .                       |              sdivakaran143       
+                                    sdivakaran143           |              com       
+                                    .                       |                     
+                                    com                     |                   
+                                                            |   
+>--------------------------------------------------------------------------------------------------------------------------------<
+<StringTokenizer vs Split()>
+    
+    => the split() belongs to the String class
+
+        the STringTokenizers is completely similar to the split()
+        split method is easy to use becz insted of creating object and more methods
+
+        there is an a beautiful power is in the split() method
+
+        NOTE: in string "http://www.sdivakaran143.com" we need to split on (:,//,.)=>delimiters 
+            -> in StringTokenizer it is hard to do it we need to create the object for individual delimiters
+            -> but in split() method it is so easy to do that 
+
+        we use like this :
+                    str.split("\\:|\\.|\\\\");
+                    \\outputs 
+                        http
+
+                        www
+                        sdivakaran143
+                        com
+>--------------------------------------------------------------------------------------------------------------------------------<
+
+<Conclusion|end>
+
+        NOTE : 
+            1)why StringTokenizer is in java ? 
+            2)so why we using the stringTokenizer?
+            3)split() method is aldredy there to do this same job... 
+                    1-> refer the (line 11 ) and continue here 
+                    2,3-> split method can perform the same operation but we can't see what the delimiter is used for spliting
+                       in StringTokenizer there is a constructor (constructor type 3) to saw what  delimeter is used for spliting 
+                       (it also shows the delimeter) some time its use for backward compatability applications 
+
+        we can use the split() method instead of StringTokenizer  
+
+
