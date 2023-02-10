@@ -144,6 +144,22 @@ refer : "https://www.youtube.com/watch?v=tNAFztV_meE"
                         a aa  a  aaa aa a aaa
                         it gives continues of a's   1 to 3 in the matcher 
 
-                        
+<split,string>
+            split("\\s") => split by space 
+            split("\\.") => split by dot 
 
+        String[] stra=Pattern.compile("a").split(str);
+            output:
+            div
+            k
+            r
+            n from.p
+            r
+            m
 
+        we can use the regx in two ways
+        String[] strarr=str.split("\\.");
+        String[] stra=Pattern.compile("\\.").split(str);
+        the both are common the both method are stored in string arr[] 
+
+>--------------------------------------------------------------------------------------------------------------------------------<
