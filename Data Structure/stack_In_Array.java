@@ -15,9 +15,10 @@ public class stack_In_Array {
     public void push(int x) {
         if ((capacity - 1) == top)
             System.out.println("the stack is full...");
-        else
+        else{
             System.out.println("added in the  stack....");
-        arr[++top] = x;
+            arr[++top] = x;
+        }
     }
 
     public int pop() {
