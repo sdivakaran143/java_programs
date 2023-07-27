@@ -13,7 +13,7 @@ public class wave_form {
             }
         }
 
-    //swaps the values 
+    // swaps the values 
        for(int i=0;i<arr.length;i+=2){
            try {
                arr[i]=arr[i]+arr[i+1];
