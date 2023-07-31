@@ -7,6 +7,7 @@ public class BinarySearch{
             if (arr[l]==val){
                 mvalue=l;
             }
+            mvalue=m;
             return mvalue;
         }
         else{
@@ -19,6 +20,6 @@ public class BinarySearch{
         int[] a={0,1,2,3,4,5,6,7,8,9,10};
         System.out.print("Enter the Value to find : ");
         int val=in.nextInt();
-        System.out.println(val+" found at Position "+search(a,0,a.length-1,(a.length-1)/2,val));
+        System.out.println(val+" found at Index "+search(a,0,a.length-1,(a.length-1)/2,val));
     }
 }
